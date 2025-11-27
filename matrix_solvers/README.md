@@ -15,6 +15,7 @@ Both methods are implemented **from scratch** in C, without any external librari
 gcc matrixinv.c -o matrixinv -lm
 ./matrixinv input.txt N Gaussian      # OR
 ./matrixinv input.txt N LU
+```
 
 # Input
 input file must contain an augmented matrix with N rows and N+1 columns
